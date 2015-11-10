@@ -149,39 +149,5 @@ def sparse_continents
         WHERE
           population > 25000000
         )
-      -- SELECT
-      --   continent
-      -- FROM
-    --   --   countries
-    --   -- WHERE
-    --   --   population = ALL (
-    --   --   SELECT
-    --   --      population
-    --   --    FROM
-    --   --      countries
-    --   --    WHERE
-    --   --      population < 25000000)
-    --
-    -- SELECT
-    --   name, continent, population
-    -- FROM
-    --   countries
-    -- WHERE
-    --   continent = ALL (
-    --     SELECT
-    --       continent
-    --     FROM
-    --       countries
-    --     WHERE
-    --       population < ALL
-    --       (
-    --         SELECT
-    --           population
-    --         FROM
-    --           countries
-    --         WHERE
-    --           population < 25000000
-    --       )
-    --   )
   SQL
 end
